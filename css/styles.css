@@ -285,21 +285,19 @@ button {
 }
 
 .code-icon-alignment {
-  position: absolute;
-  top: 65px;
-  left: 1019px;
+  position: relative;
+  top: -22px;
 }
 
 .design-icon-alignment {
-  position: absolute;
+  position: relative;
   right: 13px;
-  top: 156px;
+  top: -40px;
 }
 
 .camera-icon-alignment {
-  position: absolute;
-  left: 1034px;
-  top: 296px;
+  position: relative;
+  top: -13px;
 }
 
 .web-showcase img {
