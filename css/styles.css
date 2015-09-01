@@ -615,5 +615,19 @@ button {
   }
 }
 
+@media (min-width: 376px) and (max-width: 383px) {
+  .fancy-btn {
+    font-size: 13px!important;
+  }
+
+  .body-btn {
+    padding: 5px 36px!important;
+  }
+
+  .icon-circle {
+    margin-left: 21px!important;
+  }
+}
+
 
 
