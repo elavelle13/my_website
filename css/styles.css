@@ -559,6 +559,26 @@ button {
   .header-social {
     display: none;
   }
+
+  .web-showcase img {
+    max-width: 100%;
+  }
+
+  .web-links {
+    max-width: 100%;
+    padding-top: 1px;
+    padding-bottom: 15px;
+  }
+
+  .web-links li {
+    font-size: 11px;
+    border-right: none!important;
+    margin-top: 10px;
+  }
+
+  .web-links ul {
+    display: inherit;
+  }
 }
 
 
