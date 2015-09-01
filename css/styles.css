@@ -458,5 +458,108 @@ button {
   font-size: 16px!important;
 }
 
+/* MOBILE CLASSES */
+
+@media (max-width: 420px) {
+  .back-img {
+    display: none;
+  }
+
+  .main-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fancy-btn {
+    font-size: 15px!important;
+    padding: 5px 14px!important;
+  }
+
+  .backdrop {
+    height: 355px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-icons {
+    width: 100%;
+    display: inline-flex;
+    padding: 0px;
+  }
+
+  .icon-circle {
+    border-radius: 49px;
+    width: 71px;
+    height: 71px;
+    margin-left: 28px;
+  }
+
+  .code-icon-alignment {
+    top: -25px;
+  }
+
+  .design-icon-alignment {
+    right: 11px;
+    top: -38px;
+  }
+
+  .camera-icon-alignment {
+    top: -18px;
+  }
+
+  .camera-icon-alignment img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .design-icon-alignment img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .code-icon-alignment img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .body-btn {
+    padding: 5px 44px!important;
+    margin-top: 20px;
+  }
+
+  .contact-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+
+  .footer-contact {
+    width: 100%;
+  }
+
+  .quick-links li {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+
+  .header-title {
+    width: 60%;
+  }
+
+  .menu {
+    width: 40%;
+    border-left: none;
+  }
+
+  .header-social {
+    display: none;
+  }
+}
+
 
 
