@@ -1,8 +1,6 @@
-
-
-
-
 $(document).ready(function() {
+  $(".skills-container").hide();  
+    $(".courses-container").hide();  
         $('#skills').click(function() {
           $('#courses').not(this).removeClass("active");
                 $(this).toggleClass("active");
