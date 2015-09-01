@@ -2,15 +2,16 @@
 
 /*font-family: 'Open Sans Condensed', sans-serif;*/
 
-
 /*ACTIVE STYLE */
-#about:active, #media:active, #web:active, .active {
+#skills:active, #courses:active, .active {
   color: #fff;
   border: 4px solid #f8ca87!important;
   background-color: #f8ca87!important;
   cursor: pointer;
   box-shadow: none!important;
 }
+
+
 
 .header {
   width: 90%;
@@ -106,7 +107,7 @@ button {
 .backdrop {
   height: 481px;
   position: relative;
-  background-color: #e3dec1;
+  background-color: #fff;
   width: 100%;
   padding: 0px;
   margin: 0px auto;
@@ -116,37 +117,29 @@ button {
 .main-container {
   position: relative;
   width: 80%;
-  text-align: left;
+  text-align: center;
   margin: 0px auto;
 }
 
 .back-img {
-  width: 50%;
+  width: 100%;
   position: relative;
   float: left;
   margin: 0px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.main-text {
-  position: relative;
-  width: 50%;
-  color: #ffffff;
-  padding-top: 40px;
-  float: left;
-  margin: 0px auto;
+#img-hide {
+	display: none;
 }
 
-.main-text h2 {
-    font-size: 40px;
-    color: #81C0B1;
-    line-height: 45px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
+.back-img:hover #img-hide {
+	display: block;
 }
 
-.main-text h4 {
-  font-size: 24px;
-  font-family: 'Open Sans Condensed', sans-serif;
+.back-img .img-hover {
+	display: none;
 }
 
 .btn {
@@ -165,14 +158,16 @@ button {
 }
 
 .fancy-btn {
-    color: #fff;
-    border: 4px solid #fff;
+    color: #f8ca87;
+    border: 4px solid #f8ca87;
     font-size: 16px !important;
-    padding: 5px 30px !important;
+    padding: 5px 105px !important;
     z-index: 10;
-    margin-right: 5px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
     border-radius: 0px !important;
     font-weight: bold;
+    box-shadow: none!important;
 }
 
 .body-btn {
@@ -193,23 +188,8 @@ button {
   cursor: pointer;
 }
 
-.about-btns a:hover {
-  color: #fff;
-  border: 4px solid #f8ca87;
-  background-color: #f8ca87!important;
-  cursor: pointer;
-}
 
-.about-btns {
-  padding-bottom: 20px;
-}
-
-.hero-btns {
-  padding-top: 15px;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.about-container, .media-container, .web-container {
+.skills-container, .courses-container {
   width: 80%;
   margin: 0px auto;
   position: relative;
@@ -217,7 +197,7 @@ button {
   padding-top: 30px;
 }
 
-.media-text a {
+.skills-text a {
   font-weight: bold;
   cursor: pointer;
   color: #F8CA87;
@@ -225,14 +205,14 @@ button {
 }
 
 
-.about-text {
+.skills-text, .courses-text {
   width: 80%;
   margin: 0px auto;
   float: left;
 }
 
 
-.about-text h2, .media-text h2, .web-text h2 {
+.skills-text h2, .courses-text h2 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   color: #81C0B1;
@@ -257,93 +237,12 @@ button {
   cursor: pointer;
 }
 
-.about-text h4, .media-text h4, .web-text h4, .web-sec-text h4, .web-links h4 {
+.skills-text h4, .courses-text h4 {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #7f7f7e;
   line-height: 27px;
   font-size: 18px;
   padding-bottom: 8px;
-}
-
-.about-icons {
-  width: 20%;
-  margin: 0px auto;
-  float: left;
-  text-align: right;
-  padding-top: 27px;
-  padding-left: 100px;
-}
-
-.icon-circle {
-  border-radius: 69px;
-  width: 105px;
-  height: 102px;
-  text-align: center;
-  padding-top: 29px;
-  border: 3px solid #8d806e;
-  margin-bottom: 8px;
-}
-
-.code-icon-alignment {
-  position: absolute;
-  top: 65px;
-  left: 1019px;
-}
-
-.design-icon-alignment {
-  position: absolute;
-  right: 13px;
-  top: 156px;
-}
-
-.camera-icon-alignment {
-  position: absolute;
-  left: 1034px;
-  top: 296px;
-}
-
-.web-showcase img {
-  width: 500px;
-  height: 350px;
-}
-
-.web-showcase {
-  text-align: center;
-  width: 100%;
-  margin: 0px auto;
-  float: center;
-}
-
-.col-lg-6 {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.web-links ul {
-  display: inline-flex;
-  padding: 0px;
-  margin: 0px auto;
-}
-
-.web-links li {
-  list-style: none;
-  padding-right: 30px;
-  padding-left: 30px;
-  border-right: 1px solid #7f7f7e;
-
-}
-
-.web-sec-text a {
-  color:#f8ca87;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.web-links {
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .contact-container {
@@ -459,6 +358,3 @@ button {
   color: #fff;
   font-size: 16px!important;
 }
-
-
-
