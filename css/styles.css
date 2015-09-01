@@ -605,6 +605,14 @@ button {
   .fancy-btn {
     padding: 5px 7px!important;
   } 
+
+  .body-btn {
+    padding: 5px 25px!important;
+  }
+
+  .icon-circle {
+    margin-left: 8px!important;
+  }
 }
 
 
