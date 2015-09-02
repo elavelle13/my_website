@@ -359,3 +359,84 @@ button {
   color: #fff;
   font-size: 16px!important;
 }
+
+.back-img img {
+  max-width: 100%;
+}
+
+
+
+/* MOBILE CLASSES */
+
+@media (max-width: 768px) {
+
+  .footer-contact {
+    width: 100%;
+  }
+
+  .header-title {
+    width: 60%;
+  }
+
+  .menu {
+    width: 40%;
+    border-left: none;
+  }
+
+  .header-social {
+    display: none;
+  }
+
+  .contact-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+
+  .quick-links li {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1260px) {
+  .header-title {
+    width: 26%;
+  }
+
+  .menu {
+    width: 17%;
+  }
+
+  .header-social {
+    width: 25%;
+  }
+
+  .contact-img {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 1261px) and (max-width: 1404px ) {
+  .header-title {
+    width: 16%;
+  }
+
+  .menu {
+    width: 11%
+  }
+
+  .header-social {
+    width: 25%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1159px) {
+  .footer-contact {
+    width: 100%;
+  }
+
+}
