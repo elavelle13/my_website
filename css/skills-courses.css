@@ -400,6 +400,18 @@ button {
     padding-right: 11px;
     padding-left: 11px;
   }
+
+  .fancy-btn {
+    margin: 0px auto!important;
+    padding: 5px 32px!important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 780px) {
+  .fancy-btn {
+    margin: 0px auto!important;
+    padding: 5px 32px!important;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1260px) {
